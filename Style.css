@@ -1,27 +1,20 @@
-body
+button
 {
-
-    margin: 0;
-    padding: 0%;
-    background: grey;
+    color: green; 
+    width: 5%;
+    height: 2em;
 }
-.search-box
+button:hover
 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    height: 40px;
-    background: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-
+    color: red;
 }
-.search-txt
+input
 {
-border: 3px blue;
-background: none;
-
+    color: green;
+    width:  94%;
+    height: 2em;
+}
+input:hover
+{
+    color: red;
 }
